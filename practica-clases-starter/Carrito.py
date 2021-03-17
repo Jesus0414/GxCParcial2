@@ -92,5 +92,6 @@ class Carrito():
         if obstaculo.vivo and bala.posicionX + 0.01 > obstaculo.posicionX - 0.15 and bala.posicionX - 0.01 < obstaculo.posicionX + 0.15 and bala.posicionY + 0.01 > obstaculo.posicionY - 0.15 and bala.posicionY - 0.01 < obstaculo.posicionY + 0.15:
            obstaculo.vivo = False
            self.disparando = False
+           
 
     
